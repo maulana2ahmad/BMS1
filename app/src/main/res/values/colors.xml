@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#377EFA</color> <!--3F51B5-->  <!--#2897EF-->
+    <color name="colorPrimaryDark">#377EFA</color> <!--303F9F-->  <!--0061ae-->
+    <color name="colorAccent">#FF4081</color> <!--FF4081-->
+
+    <!--add color-->
+    <color name="blueSecondary">#2081f8</color>
+    <color name="whitePrimary">#FFFFFF</color>
+    <color name="gray_secondary">#F1F2F5</color>
+    <color name="transparent">#80000000</color>
+
+    <!--color mnctv-->
+    <color name="yellowPrimary">#F8E007</color>
+    <color name="redPrimary">#FC1201</color>
+    <color name="greenPrimary">#0AC011</color>
+
+    <!---->
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#ffffff</color>
+</resources>

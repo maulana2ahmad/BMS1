@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_summary"
+            android:icon="@drawable/ic_summary"
+            android:title="Summary 4 TV" />
+
+        <item
+            android:id="@+id/menu_occupancyByTv"
+            android:icon="@drawable/ic_occupancy_bytv"
+            android:title="Occupancy By TV" />
+
+        <item
+            android:id="@+id/menu_occupancyDetail"
+            android:icon="@drawable/ic_occupancy_detail"
+            android:title="Occupancy Detail" />
+
+        <item
+            android:id="@+id/menu_occupancy_industry"
+            android:actionLayout="@layout/fragment_occupancy_industry"
+            android:icon="@drawable/ic_ocupancy_industry"
+            android:title="Occupancy Industry" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/menu_setting"-->
+                <!--android:icon="@drawable/ic_help"-->
+                <!--android:title="@string/help_feedbac" />-->
+
+            <item
+                android:id="@+id/menu_logout"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

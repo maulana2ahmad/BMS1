@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+	This is a configuration file for navigation menu. You can add/remove/modify menu items as you need.
+	Important: each of these 4 arrays below must contain the same number of items.
+	-->
+
+    <!--List of titles in Navigation Drawer-->
+    <string-array name="navigation_title_list">
+        <item>Summary 4 TV</item>
+        <item>Occupancy By TV</item>
+        <item>Occupancy Detile</item>
+        <item>Occupancy Industry</item>
+        <item>Logout</item>
+        <item>About</item>
+    </string-array>
+
+    <!--
+	List of webview URLs. You can specify URL link to a web page on the Internet or
+	URL link to a local page stored in assets directory. Local page does not require Internet connection.
+	URL to the local page must be in this format: file:///android_asset/example.html
+	If you want to add a category, leave the item empty. Menu item without URL is considered as a category item.
+	-->
+    <!--Url list title-->
+    <string-array name="navigation_url_list">
+        <item></item>
+        <item>http://portal-bams.mncgroup.com:8008/</item>
+        <item>http://portal-bams.mncgroup.com:8008/occupancybytv</item>
+        <item>http://portal-bams.mncgroup.com:8008/occupancydetail</item>
+        <item>http://portal-bams.mncgroup.com:8008/reportoccupancyindustry</item>
+    </string-array>
+
+    <string-array name="navigation_icon_list">
+        <item></item>
+        <item>@drawable/ic_summary</item>
+        <item>@drawable/ic_occupancy_bytv</item>
+        <item>@drawable/ic_occupancy_detail</item>
+        <item>@drawable/ic_ocupancy_industry</item>
+        <item>@drawable/ic_exit</item>
+        <item>@drawable/ic_help</item>
+    </string-array>
+</resources>

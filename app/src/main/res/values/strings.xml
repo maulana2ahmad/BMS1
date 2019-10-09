@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BMS</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connection_down">Wifi and Mobile Data area supported</string>
+    <string name="try_againt">Try Againt</string>
+    <string name="logout">Logout</string>
+    <string name="help_feedbac"><![CDATA[Help & Feedbac]]></string>
+    <string name="summry4tv">Summary 4 TV</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="powered_by_it_developer">Powered by IT Broadcast Dev. System - MNC Media </string>
+    <string name="remember_you">Remember Me</string>
+    <string name="main_exit_confirm">YES</string>
+    <string name="main_exit_snackbar">Are you sure you want to Logout?</string>
+</resources>
